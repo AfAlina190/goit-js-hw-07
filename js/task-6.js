@@ -18,7 +18,7 @@ function getRandomHexColor() {
       return;
     }
 
-    destroyBoxes(); // Clear existing boxes
+    destroyBoxes(); 
 
     let size = 30;
 
@@ -31,9 +31,9 @@ function getRandomHexColor() {
       size += 10;
     }
 
-    input.value = ''; // Clear input value
+    input.value = ''; 
   }
 
   function destroyBoxes() {
-    boxesContainer.innerHTML = ''; // Remove all child elements
+    boxesContainer.innerHTML = ''; 
   }
