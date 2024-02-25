@@ -17,7 +17,3 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Elements:", elementsCount);
   });
 });
-
-
-
-
